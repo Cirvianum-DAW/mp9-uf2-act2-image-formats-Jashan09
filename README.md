@@ -16,7 +16,7 @@ As you can see, this code allows us to display some images and dynamically show 
 - Your task is to EXPORT the images in different formats and different compression levels and analyze the results. For each image you'll need at least:
   - Export in each of the formats: PNG, JPEG, and GIF.
   - In case of JPEG, you should export it with different compression levels: Low, Medium, and High.
-  - In case of GIF or PNG, at least two different color depths: 8-bit and 24-bit.
+  - In case of PNG, at least two different color depths: 8-bit and 24-bit.
 - You can do the export with GIMP, but you MUST FIND ANOTHER TOOL to do it and SHARE IT IN THE FOLLOWING LINK: [LIST OF TOOLS](https://docs.google.com/spreadsheets/d/1M1cjVm03rX554sMzXRX8MlUFjs7kVy1eBQyo01bVSzY/edit?usp=sharing)
 
 This is a table of the different formats and compression levels to be considered (doesn't mean you must have all of them, but at least the ones mentioned):

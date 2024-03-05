@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Format Experiment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header class="bg-blue-500 text-white text-center p-5">
+      <h1 class="text-4xl">Image Format Experiment</h1>
+    </header>
+    <main
+      class="text-base text-center p-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5"
+    >
+    
+    <div>
+
+        
+        <u>
+            What format is the most optimal for this type of image and why? 
+        </u>
+<br>
+        It will be the original png.
+        <br>
+
+        <br>
+        <u>
+        Can its size be reduced even more?
+        </u>
+
+        <br>
+        <br>
+
+        <u>
+             Would it lose quality?
+        </u>
+        
+    </div>
+    
+      <div >
+        <b>low compress, jpeg</b>
+        <p>size: 271,5 kB (271.462 bytes)</p>
+        <p>dimensions: 1080px width 1819px height</p>
+        <div class="border-solid border-2 border-gray-600">
+        <a href="../index.html">
+        <img src="compress low.jpeg" alt="Example 1" class="w-full" /></a>
+        <div class="image-info"></div>
+        </div>
+      </div>
+      <div >
+        <b>medium compress, jpeg</b>
+        <p>size: 122,8 kB (122.800 bytes)</p>
+        <p>dimensions: 1080px width 1819px height</p>
+        <div class="border-solid border-2 border-gray-600">
+        <a href="../index.html">
+        <img src="compress medium.jpeg" alt="Example 1" class="w-full" /></a>
+        <div class="image-info"></div>
+        </div>
+      </div>
+      <div >
+        <b>high compress, jpeg</b>
+        <p>size: 31,8 kB (31.755 bytes)</p>
+        <p>dimensions: 1080px width 1819px height</p>
+        <div class="border-solid border-2 border-gray-600">
+        <a href="../index.html">
+        <img src="compress high.jpeg" alt="Example 1" class="w-full" /></a>
+        <div class="image-info"></div>
+        </div>
+      </div>
+
+<br>
+
+
+<div >
+    <b>png - color depth, 8 bits</b>
+    <p>size: 24,1 kB (24.052 bytes)</p>
+    <p>dimensions: 1080px width 1819px height</p>
+    <div class="border-solid border-2 border-gray-600">
+    <a href="../index.html">
+    <img src="logotip color depth.png" alt="Example 1" class="w-full" /></a>
+    <div class="image-info"></div>
+    </div>
+  </div>
+  <div>
+
+    <b>png to gif</b>
+    <p>size: 137,6 kB (137.638 bytes)</p>
+    <p>dimensions: 1080px width 1819px height</p>
+    <div class="border-solid border-2 border-gray-600">
+    <a href="../index.html">
+    <img src="logotip.gif" alt="Example 1" class="w-full" /></a>
+    <div class="image-info"></div>
+    </div>
+  </div>
+
+  <div>
+
+    <b>original png</b>
+    <p>size: 293,4 kB (293.380 bytes)</p>
+    <p>dimensions: 1080px width 1819px height</p>
+    <div class="border-solid border-2 border-gray-600">
+    <a href="../index.html">
+    <img src="../images/logotip.png" alt="Example 1" class="w-full" /></a>
+    <div class="image-info"></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
